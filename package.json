@@ -1,0 +1,24 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./build/index.js",
+    "dev": "ts-node-dev --respawn --transpileOnly ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritisolanki/test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritisolanki/test-repo/issues"
+  },
+  "homepage": "https://github.com/pritisolanki/test-repo#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.40"
+  }
+}
