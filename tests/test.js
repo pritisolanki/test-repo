@@ -5,7 +5,6 @@ const expect = chai.expect;
 
 chai.use(chaiHttp);
 
-//Test for adding a new product
 describe('Add a product test', () => {
   it('Checks if the product exists', () => {
     const request = {
